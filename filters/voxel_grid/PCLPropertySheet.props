@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\PCL 1.7.2\3rdParty\VTK\include\vtk-5.10;C:\PCL 1.7.2\include\pcl-1.7;C:\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;C:\PCL 1.7.2\3rdParty\FLANN\include;C:\PCL 1.7.2\3rdParty\QHull\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:/PCL 1.7.2/lib;C:/PCL 1.7.2/lib/$(Configuration);C:\PCL 1.7.2\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\PCL 1.7.2\3rdParty\Boost\lib\libboost_system-vc120-mt-gd-1_55.lib;C:\PCL 1.7.2\3rdParty\Boost\lib\libboost_filesystem-vc120-mt-gd-1_55.lib;C:\PCL 1.7.2\3rdParty\Boost\lib\libboost_thread-vc120-mt-gd-1_55.lib;C:\PCL 1.7.2\3rdParty\Boost\lib\libboost_date_time-vc120-mt-gd-1_55.lib;C:\PCL 1.7.2\3rdParty\Boost\lib\libboost_iostreams-vc120-mt-gd-1_55.lib;C:\PCL 1.7.2\3rdParty\Boost\lib\libboost_mpi-vc120-mt-gd-1_55.lib;C:\PCL 1.7.2\3rdParty\Boost\lib\libboost_serialization-vc120-mt-gd-1_55.lib;C:\PCL 1.7.2\3rdParty\Boost\lib\libboost_chrono-vc120-mt-gd-1_55.lib;C:\PCL 1.7.2\lib\pcl_common_debug.lib;C:\PCL 1.7.2\lib\pcl_octree_debug.lib;C:\PCL 1.7.2\lib\pcl_io_debug.lib;C:\PCL 1.7.2\3rdParty\FLANN\lib\flann_cpp_s-gd.lib;C:\PCL 1.7.2\lib\pcl_kdtree_debug.lib;C:\PCL 1.7.2\lib\pcl_search_debug.lib;C:\PCL 1.7.2\lib\pcl_sample_consensus_debug.lib;C:\PCL 1.7.2\lib\pcl_filters_debug.lib;C:\PCL 1.7.2\lib\pcl_features_debug.lib;C:\PCL 1.7.2\lib\pcl_ml_debug.lib;C:\PCL 1.7.2\lib\pcl_segmentation_debug.lib;C:\PCL 1.7.2\lib\pcl_visualization_debug.lib;C:\PCL 1.7.2\3rdParty\QHull\lib\qhullstatic_d.lib;C:\PCL 1.7.2\lib\pcl_surface_debug.lib;C:\PCL 1.7.2\lib\pcl_registration_debug.lib;C:\PCL 1.7.2\lib\pcl_keypoints_debug.lib;C:\PCL 1.7.2\lib\pcl_tracking_debug.lib;C:\PCL 1.7.2\lib\pcl_recognition_debug.lib;C:\PCL 1.7.2\lib\pcl_stereo_debug.lib;C:\PCL 1.7.2\lib\pcl_outofcore_debug.lib;C:\PCL 1.7.2\lib\pcl_people_debug.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkCharts-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkViews-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkInfovis-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkWidgets-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkHybrid-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkVolumeRendering-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkRendering-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkGraphics-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkImaging-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkIO-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkFiltering-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtkCommon-gd.lib;C:\PCL 1.7.2\3rdParty\VTK\lib\vtk-5.10\vtksys-gd.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
